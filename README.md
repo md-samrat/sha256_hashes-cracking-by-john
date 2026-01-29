@@ -15,8 +15,8 @@ Never attack real systems or hashes without proper permission.
 ## Usage
 
 ```bash
-git clone https://github.com/samrat-xyz/sha256_hashes-cracking.git
-cd sha256_hashes-cracking
+git clone https://github.com/md-samrat/sha256_hashes-cracking-by-john.git
+cd sha256_hashes-cracking-by-john
 john --format=raw-sha256 --wordlist=/usr/share/wordlists/rockyou.txt --rules sha256.txt
 john --format=raw-sha256 --show sha256.txt
 
